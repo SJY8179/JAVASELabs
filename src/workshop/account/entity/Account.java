@@ -4,8 +4,12 @@ public class Account {
 	private String custId;
 	private String acctId;
 	private int balance;
-	public void setBalance(int Balance) {
-		this.balance = Balance;
+	//public void setBalance(int Balance) {
+		//this.balance = Balance;
+//	}
+	//default constructor선언 
+	public Account() {
+		System.out.println("기본생성자 호출됨");
 	}
 	public int getBalance() {
 		return balance;
